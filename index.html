@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>LogoSearch</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Education Programs</h1>
+    </div>
+
+    <div class="container text-center">
+        <form class="form col-xs-12">
+            <div class="form-group col-sm-2 col-sm-offset-5 col-xs-4 col-xs-offset-4">
+                <label for="program-type" class="lable">Program Type:</label>
+                <select class="form-control" name="program-type">
+                    <option value="">Search All</option>
+                    <option value="SP">Scholarship Program</option>
+                    <option value="LP">Loan Program</option>
+                </select>
+            </div>
+            <div class="form-group col-sm-2 col-sm-offset-5 col-xs-4 col-xs-offset-4">
+                <label for="edu-level" class="lable">Education Level:</label>
+                <select class="form-control" name="edu-level">
+                    <option value="">Search All</option>
+                    <option value="K12">K-12</option>
+                    <option value="HS">High School</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary col-sm-2 col-sm-offset-5 col-xs-4 col-xs-offset-4">Search</button>
+        </form>
+    </div>
+
+    <div class="images">
+        <li>
+            <img src="logos/aci-color.png" class="K12 SP">
+        </li>
+        <li>
+            <img src="logos/afe-color.png" class="HS SP LP">
+        </li>
+        <li>
+            <img src="logos/acm-color.png" class="K12 LP">
+        </li>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

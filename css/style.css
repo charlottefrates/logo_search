@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+.title {
+
+	padding-top: 2em;
+	padding-bottom: 2em;
+		text-align: center;
+}
+
+
+.lable {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+
+.form-control {
+	width: 100% !important;
+
+}
+
+.form-inline {
+	text-align: center;
+}
+
+.btn:last-child {
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+.images {
+	display: flex;
+	width: 32em;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 5em;
+    height: auto;
+
+    }
+
+.active {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: filter 3s, -webkit-filter 3s;
+}
+
+li {
+	list-style: none;
+	margin: 1em;
+}
